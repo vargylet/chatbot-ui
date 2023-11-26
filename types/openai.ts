@@ -23,8 +23,8 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5]: {
     id: OpenAIModelID.GPT_3_5,
     name: 'GPT-3.5',
-    maxLength: 12000,
-    tokenLimit: 4000,
+    maxLength: 12288,
+    tokenLimit: 4096,
   },
   [OpenAIModelID.GPT_3_5_AZ]: {
     id: OpenAIModelID.GPT_3_5_AZ,
@@ -35,8 +35,8 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_3_5_TURBO_1106]: {
     id: OpenAIModelID.GPT_3_5_TURBO_1106,
     name: 'GPT-3.5-Turbo-1106',
-    maxLength: 48000,
-    tokenLimit: 16000,
+    maxLength: 49155,
+    tokenLimit: 16385,
   },
   [OpenAIModelID.GPT_4]: {
     id: OpenAIModelID.GPT_4,
@@ -47,8 +47,8 @@ export const OpenAIModels: Record<OpenAIModelID, OpenAIModel> = {
   [OpenAIModelID.GPT_4_32K]: {
     id: OpenAIModelID.GPT_4_32K,
     name: 'GPT-4-32K',
-    maxLength: 96000,
-    tokenLimit: 32000,
+    maxLength: 98304,
+    tokenLimit: 32768,
   },
   [OpenAIModelID.GPT_4_TURBO]: {
     id: OpenAIModelID.GPT_4_TURBO,
